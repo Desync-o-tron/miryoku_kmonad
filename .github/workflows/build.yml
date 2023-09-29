@@ -6,3 +6,9 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       mode: '["build"]'
+      alphas: '["dvorak"]'
+      nav: '["default"]'
+      clipboard: '["default", "fun", "win"]'
+      layers: '["default"]'
+      kmonad_os: '["win"]'
+      
